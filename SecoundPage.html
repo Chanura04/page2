@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eBooking</title>
+    <link rel="stylesheet" href="SecoundPage.css">
+    <link rel="icon" href="e.png" type="image/png">
+
+</head>
+<body>
+ 
+
+    <nav class="header_part">
+        <input type="search" name="Search" placeholder="Search..." id="Input" class="input1">
+        <label for="Input"><a href="#"><img src="searchicon.png" alt="searchicon"></a></label>
+        <ul class="nav_links_headBar">
+              <li class="dropDown1"> <a href="#top">Home</a>
+                <div class="DropDownContent_head1">
+                    <a href="#NowShowingFilms">Movies</a>
+                    <a href="#concerts">Concerts</a>
+                    <a href="#Conferences">Conferences</a>
+                </div>  
+              </li>
+             <li  class="dropDown1"><a href="#News">News</a></li>       
+             <li class="dropDown1"><a href="#Discounts">Discounts</a>
+                <div class="DropDownContent_head1">
+                    <a href="#">Movies</a>
+                    <a href="#">Concerts</a>
+                   </div> 
+                </li>
+             <li class="dropDown1"><a href="#Supports">Supports</a> </li>
+            <li class="dropDown1"><a href="#Accounts">Sign in</a></li>
+           </ul>
+           <div class="profile"><a href="#"><img src="profile.jpg" alt="profileImage" > </a> </div>
+     </nav>
+  
+     <div class="side_bar" >
+        <div  class="logo"><a href="#top"><img src="eBooking3.png" alt="logo"></a> </div>
+
+        <ul class="nav_links_side">
+           <li class="dropDown2"><a href="#NowShowingFilms" class="films">Watch Now</a></li>
+           <li class="dropDown2"><a href="#ComingUpFilms2" class="films">Coming Up</a></li>
+           <li><a href="#concerts" class="concerts">Concerts</a></li>
+           <li><a href="#Conferences" class="Conferences">Conferences</a></li>
+       </ul>
+</div>
+ <div class="LeftSide">
+    <h2>Choose a slot</h2>
+    <div class="choices">
+            <p>Select Date - January 2025</p> 
+        <div class="date">
+            <button class="ButtonDate" ><span>MON 1</span></button>
+            <button class="ButtonDate" ><span>TUE 2</span></button>
+            <button class="ButtonDate" ><span>WED 3</span></button>
+            <button class="ButtonDate" ><span>THU 4</span></button>
+            <button class="ButtonDate" ><span>FRI 5</span></button>
+        </div>
+        <p>Choose Time</p>
+        <div class="time"  >
+            <button class="ButtonTime"><span>10-12 am</span></button>
+            <button class="ButtonTime"><span>12-2 pm</span></button>
+            <button class="ButtonTime"><span>3-5 pm</span></button>
+            <button class="ButtonTime"><span>6-8 pm</span></button>
+            <button class="ButtonTime"><span>10-12 pm</span></button>
+        </div>
+        <div class="sections">
+            <label for="theater" id="theaterr"><span>Select Theater </span>:</label>
+            <select name="theaterName" id="theater" required >
+                <option value="" disabled selected>Select a theater</option>
+                <option value="imax"> IMAX - Cinema </option>
+                <option value="pvr"> PVR -Cinema </option>
+                <option value="scope"> SCOPE -Cinema </option>
+                <option value="Savoy"> SAVOY - Cinema </option>
+            </select>
+        </div>
+        <div class="sections"><br>
+            <label for="peopleCount" id="CountOfpeople"><span>Count</span>:</label>
+            <input id="peopleCount" type="number" value="0" required min="0" max="75"> 
+        </div>
+        <div class="sections"><br>
+            <label for="mobileNumber" id="mobile"  ><span>Mobile Number </span>  :</label>
+            <input type="tel" id="mobileNumber" placeholder="07X-XXXXXXX"   maxlength="10">
+        </div> 
+    </div>
+    <button class="ConfirmButton">Confirm</button>
+
+</div>
+ 
+<div class="RightSide">
+    <div> 
+    <!-- <div class="BillDetails"> -->
+        <h2>Booking Details</h2>
+        <p id="HomePageBookButton"><span>Film Name</span>: None</p>
+        <p id="givenDate"><span>Date</span>: None</p>
+        <p id="givenTime"> <span>Time</span>: None</p>
+        <p id="givenTeater"><span>Theater</span>: None</p>
+        <p id="givenCount"><span>Count</span>: None</p>
+        <p id="givenMobile"><span>Mobile Number</span>: None</p>
+        <p id="FinalPrice"><span>Total Cost</span>: None</p>
+        <button>Proceed to pay</button>
+    </div>
+</div>
+
+
+
+
+
+
+<br><br><br><br><br><br><br>
+
+<footer>
+
+    <br><div class="firstRow1"><span><a href="">ABOUT US</a></span></div>
+            <div class="firstRow2"><span><a href="">FAQ'S</a></span> </div>
+                 <div class="firstRow3"><span><a href="">FEEDBACK</a></span></div> 
+                      <br><br> 
+            
+        <div class="socialIcon"><a href="https://Facebook.com/" target="_blank"><img src="fb.png" alt=""></a><a href="https://Gmail.com/" target="_blank"><img src="mail.jpeg" alt=""></a><a href="https://web.whatsapp.com/" target="_blank"><img src="whatsapp.png" alt=""></a><a  href="https://YouTube.com/" target="_blank"><img src="youtube.png" alt=""></a></div><br>
+    
+    
+    <SPAN class="firstRow4">Copyright @ 2025 eBooking All Rights Reserved</SPAN>
+</footer>
+    
+</body>
+</html>
